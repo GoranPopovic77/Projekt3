@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Krub");
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  background: linear-gradient(rgb(49, 175, 192), rgb(27, 39, 133));
+  
+}
+ 
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-image: url('IMG/zenicanight.jpg');
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+.intro2 {
+  height: 7%;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(23, 4, 104);
+  top: 0;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+ 
+h1 {
+  font-family: "Krub";
+  color: #fff;
+  font-size: 200%;
+}
+ 
+#send {
+  border: solid 3px #fff;
+  border-radius: 9px;
+  color: #fff;
+  font-size: 125%;
+  background-color: Transparent;
+  padding: 7px 20px;
+  text-transform: uppercase;
+}
+ 
+#send:hover {
+  color: #9CC8C7;
+  border: solid 3px #9CC8C7;
+}
+ 
+#city_value {
+  font-family: "Oswald", sans-serif;
+  font-size: 155%;
+  padding: 7px 20px;
+  border-color: #fff;
+  border-radius: 9px;
+  border-style: solid;
+}
+ 
+form {
+  text-align: center;
+}
+ 
+.main {
+  position: relative;
+  height: 50%;
+  width: 100%; 
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+ 
+#currentDate {
+  font-family: "Krub";
+  font-size: 150%;
+  background-color: #7DE6ED;
+}
+ 
+#currentWeather {
+  border-radius: 10px;
+  border-color: blue;
+  box-shadow: 1px 1px 5px blue;
+  background-color: lightgoldenrodyellow;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  height: 90%;
+}
+ 
+#mainInfo {
+  float: left;
+  width: 80%;
+}
+
+.mainIcon {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+ }
+
+#plusInfo {
+  float: right;
+  width: 40%;
+}
+ 
+#temperature {
+  font-family: "Oswald";
+  font-size: 250%;
+  margin-left: 90px;
+}
+ 
+#weather {
+  font-family: "Krub";
+  font-size: 180%;
+  margin-left: 90px;
+}
+ 
+ 
+.data {
+  font-family: "Oswald";
+  font-size: 120%;
+}
+ 
+ 
+#city_value1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 100%;
+  padding: 7px 20px;
+  border-color: #7DE6ED;
+  border-radius: 9px;
+  border-style: solid;
+}
+ 
+ 
+#city {
+  font-family: "Oswald";
+  font-size: 200%;
+  margin-left: 90px;
+  color: black;
+}
+ 
+.forecast {
+  position: relative;
+  top: 2%;
+  height: 30%;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  border-color: blue;
+  box-shadow: 1px 1px 5px blue;
+  background-color: lightcyan;;
+  overflow:hidden;
+}
+ 
+#forecastWeather {
+  font-family: "Krub";
+  width:100%;
+  background-color: lightcyan;
+  border-radius: 9px;
+  padding: 0;
+  margin-left: 0;
+}
+
+.day {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  height: 100%;
+  width: 19.5%;
+} 
+
+#nextFiveDays {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: "Krub";
+  font-size: 150%;
+  font-weight: bold;
+  background-color: lightcyan;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  margin: auto;
+  background: #202020;
+  font-family: "Krub";
+  color: rgb(232, 247, 169);
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+ 
+
+

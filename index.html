@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+ 
+  <head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weather Forecast</title>
+	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+  </head>
+ 
+  <body>
+	<section class="intro">
+  	<div class="inner"></div>
+  	<div class="content">
+        <h1>Weather for </h1>
+    	<form>
+      	<input type='text' id='city_value'>
+      	<button type='submit' id='send'><i class="fa fa-search"></i></button>
+    	</form>
+	  </div>
+	</section>
+	<section class="intro2">
+		<div class="inner"></div>
+		<div class="content">
+		  <h1>Weather forecast for another city?  Just click on me!!!</h1>
+		</div>
+	  </section>
+
+	<section class="main">
+  	<div id="currentWeather">
+    	<div id="mainInfo">
+      	<span id="currentDate"></span>
+      	<h2 id="city"> </h2>
+      	<h3 id='temperature'></h3>
+      	<h3 id='weather'></h3>
+		</div>
+		<canvas class="mainIcon" width="320" height="320"></canvas>
+    	<div class="plusInfo">
+      	<p id="pressure" class="data">Pressure: </p>
+      	<p id="humidity" class="data">Humidity: </p>
+      	<p id="minTemp" class="data">Min temperature: </p>
+      	<p id="maxTemp" class="data">Max temperature: </p>
+      	<p id="windSpeed" class="data">Wind Speed: </p>
+      	<p id="windDirection" class="data">Wind Direction: </p>
+    	</div>
+  	</div>
+	</section>
+	<section class="forecast">
+  	<div id="nextFiveDays"></div>
+  	<div id="forecastWeather">
+		  <div class="day">
+			<p id="dayofweek" class="data1"></p>
+			<canvas class="icon1" width="130" height="130"></canvas>
+			<p id="description" class="data1"></p>
+			<p id="minTemp" class="data1">Min temperature: </p>
+			<p id="maxTemp" class="data1">Max temperature: </p>
+			<p id="pressure" class="data1">Pressure: </p>
+			<p id="humidity" class="data1">Humidity: </p>
+			<p id="windSpeed" class="data1">Wind Speed: </p>
+			<p id="windDirection" class="data1">Wind Direction: </p>
+		</div>
+        <div class="day">
+			<p id="dayofweek" class="data2"></p>
+			<canvas class="icon2" width="130" height="130"></canvas>
+			<p id="description" class="data1"></p>
+			<p id="minTemp" class="data2">Min temperature: </p>
+			<p id="maxTemp" class="data2">Max temperature: </p>
+			<p id="pressure" class="data2">Pressure: </p>
+			<p id="humidity" class="data2">Humidity: </p>
+			<p id="windSpeed" class="data2">Wind Speed: </p>
+			<p id="windDirection" class="data2">Wind Direction: </p>
+	  </div>
+	  <div class="day">
+		<p id="dayofweek" class="data3"></p>
+			<canvas class="icon3" width="130" height="130"></canvas>
+			<p id="description" class="data3"></p>
+			<p id="minTemp" class="data3">Min temperature: </p>
+			<p id="maxTemp" class="data3">Max temperature: </p>
+			<p id="pressure" class="data3">Pressure: </p>
+			<p id="humidity" class="data3">Humidity: </p>
+			<p id="windSpeed" class="data3">Wind Speed: </p>
+			<p id="windDirection" class="data3">Wind Direction: </p>
+  </div>
+  <div class="day">
+	<p id="dayofweek" class="data4"></p>
+			<canvas class="icon4" width="130" height="130"></canvas>
+			<p id="description" class="data4"></p>
+			<p id="minTemp" class="data4">Min temperature: </p>
+			<p id="maxTemp" class="data4">Max temperature: </p>
+			<p id="pressure" class="data4">Pressure: </p>
+			<p id="humidity" class="data4">Humidity: </p>
+			<p id="windSpeed" class="data4">Wind Speed: </p>
+			<p id="windDirection" class="data4">Wind Direction: </p>
+</div>
+<div class="day">
+	<p id="dayofweek" class="data5"></p>
+			<canvas class="icon5" width="130" height="130"></canvas>
+			<p id="description" class="data5"></p>
+			<p id="minTemp" class="data5">Min temperature: </p>
+			<p id="maxTemp" class="data5">Max temperature: </p>
+			<p id="pressure" class="data5">Pressure: </p>
+			<p id="humidity" class="data5">Humidity: </p>
+			<p id="windSpeed" class="data5">Wind Speed: </p>
+			<p id="windDirection" class="data5">Wind Direction: </p>
+</div>
+  	</div>
+	</section>
+	<footer>Developed by GoranPopovic77</footer>
+    <script type="text/javascript" src="JS/skycons.js"></script>
+	<script type="text/javascript" src="JS/myscript2.js"></script>
+  </body>
+ 
+</html>
